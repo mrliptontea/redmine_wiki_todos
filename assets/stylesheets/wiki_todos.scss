@@ -1,6 +1,10 @@
 .task-list {
     padding-left: 0;
 
+    .wiki & {
+        padding-left: 0;
+    }
+
     + .wiki-anchor,
     .task-list-item .wiki-anchor {
         display: none;
